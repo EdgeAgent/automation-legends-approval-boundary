@@ -1,0 +1,14 @@
+{
+  "name": "@automation-legends/approval-boundary-starter",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "A dependency-free, explicit human-approval boundary starter for AI-agent builders.",
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node server.mjs",
+    "demo": "node scripts/demo.mjs",
+    "check": "node --check core.mjs && node --check server.mjs && node --check scripts/demo.mjs"
+  }
+}

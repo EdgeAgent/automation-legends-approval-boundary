@@ -1,0 +1,6 @@
+{
+  "proposal": "Send the reviewed renewal reminder to the named account owner.",
+  "evidence": ["Account owner confirmed email address on 2026-08-20.", "Renewal date is within the approved notification window."],
+  "constraints": ["Do not attach unreviewed account exports.", "Do not send until a person selects approve."],
+  "approval_question": "Approve this reminder for delivery?"
+}
